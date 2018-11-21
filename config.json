@@ -1,0 +1,28 @@
+{
+    "api_key": "PsrFJKTTelwpFYV3bbV1nssFV722qEHdzkTL7oxNi1K6VxP0TUfTQ4MOXXzUqYnT",
+    "secret_key": "o1XLod01V6KBa1qfmuakWly5XkHoBWNWuSussiKCkKiI20jNxHeEuWRtfAClFJIV",
+    "pairs": [
+        {
+            "quote": "BTC",
+            "base": "BCHSV",
+            "interval": "5m",
+            "dk_extra_intreval": "15m",
+            "dk_delay": 1.5,
+            "dk_low_price_markup": 0.2,
+            "spending_sum": 1,
+            "profit": 0.005,
+            "use_stop_loss": true,
+            "stop_loss": 5
+        }
+    ],
+    "spending_system": "dynamic",
+    "buy_strategy": "dynamic_klines",
+    "sell_strategy": "scalping",
+    "buy_life_time_sec": 300,
+    "clear_logs": true,
+    "clear_db": true,
+    "use_bnb_fees": true,
+    "macd_bull_perc": 99,
+    "macd_bear_perc": 0,
+    "stochrsi_perc": 25
+}
